@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="welcome to our website">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title> Search Filter </title>
+</head>
+<body>
+    <header class="pro-head">
+       <div class="pro-head__option">
+            <h1 class="pro-head__title"> product filter </h1>
+            <div class="pro-head__search">
+                <form action="post">
+                    <input type="search" class="search-products" id="search" placeholder="type here..."></input>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
+            </div>
+            <div class="pro-head__filter">
+                <button class="filter_button" data-filter> all </button>
+                <button class="filter_button" data-filter="watch"> Watch </button>
+                <button class="filter_button" data-filter="shirt"> Shirt </button>
+                <button class="filter_button" data-filter="Dress"> Dress </button>
+                <button class="filter_button" data-filter="jewelry"> Jewelry </button>
+            </div>
+       </div> 
+    </header>
+    <main class="pro-itmes container">
+
+    </main>
+    <script src="axios.min.js"></script>
+    <script src="filter.js"></script>
+</body>
+</html>

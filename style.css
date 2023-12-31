@@ -1,0 +1,120 @@
+.container{
+    margin-right:2rem;
+    margin-left:2rem;
+}
+
+body{
+    margin:0;
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+html{
+    font-size:62.5%;
+}
+
+.pro-head{
+    width:100%;
+    background-color:rgba(228, 222, 219, 0.4);
+}
+
+.pro-head__option{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    gap:20px;
+    padding:15px 0;
+}
+
+.pro-head__title{
+    margin:0;
+    font-size: 19px;
+}
+
+.pro-head__search{
+    display: flex;
+    background-color:#f3f1f1;
+    border:1px solid #025497;
+    border-radius:5px;
+    justify-content:space-evenly;
+}
+
+.pro-head__search form > input{
+    padding:10px 25px;
+    background-color:transparent;
+    border:none;
+    outline: none;
+}
+.pro-head__search form > i{
+    padding:10px 10px 10px;
+    color:#3127c7;
+}
+
+.pro-head__filter{
+    display:flex;
+    flex-direction:row;
+    gap: 0.5rem;
+    @media screen and (min-width:640px){
+        gap:1.9rem;
+    }
+}
+
+.pro-head__filter > button{
+    padding:5px 13px;
+    background-color:transparent;
+    border:1px solid #3127c7;
+    border-radius:5px;
+    transition:all linear 0.2s;
+    cursor:pointer;
+}
+
+.pro-head__filter > button:hover{
+    color:#ffff;
+    background-color:#3127c7;
+    outline: 1px solid #7f79d3;
+    outline-offset:1px;
+}
+
+.pro-itmes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:0.8rem;
+    justify-content: center;
+    margin-top: 1rem;
+    @media screen and (min-width:1024px){
+        display: grid;
+        grid-template-columns:repeat(3 , auto)
+    }
+} 
+
+.pro-items__product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddd;
+    border-radius:5px;
+    padding:10px;
+}
+
+.pro-items__product figure{
+    background: rgb(235, 232, 232);
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px #e3dbdb;
+}
+
+.pro-items__product figure img{
+    max-width: 250px;
+}
+
+.pro-items__product__info{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:0.6rem
+}

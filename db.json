@@ -1,0 +1,82 @@
+{
+    "items":[
+        {
+            "name": "watch apple",
+            "imgUrl": "../photos/1.png",
+            "price": "12.99$",
+            "id": 1
+        },
+        {
+            "name": "watch samsoung",
+            "imgUrl": "../photos/2.png",
+            "price": "17.56$",
+            "id": 2
+        },
+        {
+            "name": "watch shiaomy" ,
+            "imgUrl": "../photos/13.png",
+            "price": "98.47$",
+            "id": 3
+        },
+        {
+            "name": "shirt white",
+            "imgUrl": "../photos/7.png",
+            "price": "98.45$",
+            "id": 4
+        },
+        {
+            "name": "shirt blue",
+            "imgUrl": "../photos/5.png",
+            "price": "65.78$",
+            "id": 5
+        },
+        {
+            "name": "Tshirt red",
+            "imgUrl": "../photos/4.png",
+            "price": "98.47$",
+            "id": 6
+        },
+        {
+            "name": "Tshirt white",
+            "imgUrl": "../photos/3.png",
+            "price": "98.78$",
+            "id": 7
+        },
+        {
+            "name": "shirt blue and white",
+            "imgUrl": "../photos/8.png",
+            "price": "54.14$",
+            "id": 8
+        },
+        {
+            "name": "jewelry one",
+            "imgUrl": "../photos/9.png",
+            "price": "147.89$",
+            "id": 9
+        },
+        {
+            "name": "jewelry two",
+            "imgUrl": "../photos/10.png",
+            "price": "897.89$",
+            "id": 10
+        },
+        {
+            "name": "jewelry third",
+            "imgUrl": "../photos/11.png",
+            "price": "789.45$",
+            "id": 11
+        },
+        {
+            "name": "dress",
+            "imgUrl": "../photos/6.png",
+            "price": "78.45$",
+            "id": 12
+        },
+        {
+            "name": "Necklaces",
+            "imgUrl": "../photos/12.png",
+            "price": "15$",
+            "id": 13
+        }
+    ]
+}
